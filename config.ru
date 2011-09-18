@@ -6,6 +6,10 @@ $root = ::File.dirname(__FILE__)
 
 class SinatraStaticServer < Sinatra::Base  
 
+	get '/post/*' do |slug|
+    redirect to('http://tumblr.gesteves.com/post/' + slug), 301
+  end
+
   get(/.+/) do
     send_sinatra_file(request.path) {404}
   end
