@@ -1,0 +1,7 @@
+_code_cache
+_plugins
+sass
+source
+Rakefile
+*.markdown
+*.yml
