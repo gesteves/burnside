@@ -170,12 +170,14 @@ li code {
 
 .pre-code {
   @include selection(adjust-color($base03, $lightness: 23%, $saturation: -65%), $text-shadow: $base03 0 1px);
+  font-family:Menlo, Consolas, monospace;
+  font-size:12px;
   overflow: scroll;
   overflow-y: hidden;
   display: block;
   padding: .8em !important;
   overflow-x: auto;
-  line-height: 1.45em;
+  line-height: 2;
   background: $base03 $noise-bg !important;
   color: $base1 !important;
   span { color: $base1 !important; }
@@ -291,10 +293,9 @@ figure[role=code] {
   line-height: 2;
   text-shadow: #cbcccc 0 1px 0;
   color: #474747;
-  font-weight: normal;
+  font-weight: 400;
   margin-bottom: 0;
   @include border-top-radius(5px);
-  font-family: "Helvetica Neue", Arial, "Lucida Grande", "Lucida Sans Unicode", Lucida, sans-serif;
   background: #aaaaaa image-url("code_bg.png") top repeat-x;
   border: 1px solid #565656;
   border-top-color: #cbcbcb;
