@@ -253,6 +253,7 @@ multitask :heroku do
 	puts "\n## Pushing generated public website"
 	system "git push heroku master"
 	puts "\n## Heroku deploy complete"
+	system "growlnotify -n Octopress -m Heroku deploy complete."
 	system "open #{url}"
 end
 
