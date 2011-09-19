@@ -1,0 +1,46 @@
+header {
+  text-align:center;
+  margin:48px 0;
+  
+  h1 {
+		font-weight:bold;
+		font-size:48px;
+		line-height:1;
+		margin:0;
+  }
+  
+  h2 {
+    font-weight:100;
+		font-size:32px;
+		line-height:1;
+		margin:0;
+  }
+  
+  abbr[title="and"] {
+		font-family:Baskerville;
+		font-style:italic;
+		font-weight:normal;
+		font-size:150%;
+		vertical-align:middle;
+		margin:0 -3px 0 -6px;
+	}
+	
+	a, h1 a {
+		-webkit-transition:color 0.25s linear;
+		-moz-transition:color 0.25s linear;
+		-ms-transition:color 0.25s linear;
+		transition:color 0.25s linear;
+		
+		&:link, &:visited {
+			color:#000;
+  		border-bottom:none;
+		}
+		
+		&:hover, &:active {
+			color:#bf0222;
+  		border-bottom:none;
+		}
+		
+	}
+	  
+}

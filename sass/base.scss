@@ -1,0 +1,35 @@
+html {
+	color:#333;
+	font-family:"proxima-nova-1", "proxima-nova-2", "Helvetica Neue", Arial, sans-serif;
+	font-size: 62.5%;
+	background-color:#fff;
+	font-weight:300;
+}
+
+body {
+	text-rendering: optimizeLegibility;
+	padding:0 20px;
+}
+#wrap {
+  max-width:960px;
+  margin:0 auto;
+}
+
+a {
+	text-decoration:none;
+	color:#bf0222;
+	-webkit-transition:border 0.25s linear;
+	-moz-transition:border 0.25s linear;
+	-ms-transition:border 0.25s linear;
+	transition:border 0.25s linear;
+	outline: none;
+	
+	&:link, &:visited {
+		border-bottom:1px solid rgba(191,2,34,0);
+	}
+	
+	&:hover, &:active {
+		border-bottom:1px solid rgba(191,2,34,1);
+	}
+	
+}
