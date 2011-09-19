@@ -250,6 +250,7 @@ multitask :heroku do
 	puts "\n## Pushing generated public website"
 	system "git push heroku master"
 	puts "\n## Heroku deploy complete"
+	system "heroku open"
 end
 
 desc "Update configurations to support publishing to root or sub directory"
