@@ -113,9 +113,12 @@ article {
 	}
 	
 	aside {
+		font-size:12px;
 		width:200px;
 		float:left;
+		clear:left;
 		margin-right:20px;
+		margin-bottom:2em;
 		padding:0 10px;
 		background:#f4f4f4;
 		-webkit-border-radius:3px;
