@@ -1,30 +1,40 @@
 <!DOCTYPE html>
-<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
-<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
-<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>{% if page.title %}{{page.title}} - {% endif %}{{site.title}}</title>
-  <meta name="author" content="{{site.author}}">
-  {% if page.description %}
-    <meta name="description" content="{{page.description}}"/>
-  {% endif %}
-
-  <!-- http://t.co/dKP3o1e -->
-  <meta name="HandheldFriendly" content="True">
-  <meta name="MobileOptimized" content="320">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  {% if page.keywords %}
-    <meta name="keywords" content="{{page.keywords}}"/>
-  {% endif %}
-  {% capture canonical %}{{ site.url }}{% if site.permalink contains '.html' %}{{ page.url }}{% else %}{{ page.url | remove:'index.html' }}{% endif %}{% endcapture %}
-  <link rel="canonical" href="{{ canonical }}">
-  <link href="{{ root_url }}/favicon.png" rel="shortcut icon" />
-  <link href="{{ root_url }}/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-  <script src="{{ root_url }}/javascripts/modernizr-2.0.js"></script>
-  <script src="http://s3.amazonaws.com/ender-js/jeesh.min.js"></script>
-  <script src="{{ root_url }}/javascripts/octopress.js" type="text/javascript"></script>
-  <link href="{{ site.subscribe_rss }}" rel="alternate" title="{{site.title}}" type="application/atom+xml"/>
-  {% include custom/head.html %}
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<meta name="author" content="{{ site.author }}" />
+<meta name="verify-v1" content="bn/hLVvBk1E6hM+onSl9YuslrcbuHRPcrYfProwgfr0=" />
+<meta name="y_key" content="2c8ed9b2ee26670f" />
+<meta name="msvalidate.01" content="8C1FABC66ECA426EBB1F9B75F19CE8EE" />
+<meta name="viewport" content="width=device-width" />
+<meta property="fb:admins" content="514455047" />
+<meta property="fb:app_id" content="111255698909459">
+{% if page.description %}
+<meta name="description" content="{{ page.description }}"/>
+{% else %}
+<meta name="description" content="{{ site.description }}" />
+{% endif %}
+{% if page.image %}
+<link rel="image_src" href="{{ page.image }}" />
+<meta name="medium" content="image" />
+<meta property="og:image" content="{{ page.image }}" />
+{% endif %}
+<title>{% if page.title %}{{page.title}} &ndash; {% endif %}{{site.title}}</title>
+<meta property="og:site_name" content="{{ site.title }}" />
+{% if page.title %}
+<meta property="og:title" content="{{ page.title }}" />
+{% endif %}
+{% capture canonical %}{{ site.url }}{% if site.permalink contains '.html' %}{{ page.url }}{% else %}{{ page.url | remove:'index.html' }}{% endif %}{% endcapture %}
+<link rel="canonical" href="{{ canonical }}">
+<link rel="alternate" href="{{ site.subscribe_rss }}" title="{{site.title}}" type="application/atom+xml"/>
+<link rel="openid.server" href="http://openid.claimid.com/server" />
+<link rel="openid.delegate" href="http://openid.claimid.com/guillermo-esteves" />
+<link rel="me" type="text/html" href="http://www.google.com/profiles/gfesteves"/>
+<!--[if lt IE 9]>
+<script src="{{ root_url }}/javascripts/html5.js"></script>
+<![endif]-->
+<script type="text/javascript" src="http://use.typekit.com/ccj1fup.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+<link media="all" href="{{ root_url }}/stylesheets/screen.css" type="text/css" rel="stylesheet" />
 </head>
