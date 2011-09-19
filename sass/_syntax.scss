@@ -63,6 +63,9 @@ $pre-color: $base1 !default;
   @return $text-color;
 }
 
+.mono {
+	font-family:Menlo, Consolas, monospace;
+}
 
 
 
