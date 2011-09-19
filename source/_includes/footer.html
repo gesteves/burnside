@@ -1,1 +1,23 @@
-{% include custom/footer.html %}
+<footer class="main">
+	<form action="{{ site.simple_search }}" method="get">
+    <input type="hidden" name="q" value="site:{{ site.url | shorthand_url }}" />
+    <input class="search" type="text" name="q" results="0" />
+    <input type="submit" value="Search" />
+    
+    <p>
+    	<a href="/">Blog</a> &bull;
+    	<a href="http://www.gesteves.com" rel="me">Website</a> &bull;
+    	<a href="/blog/archives">Archive</a> &bull;
+    	<a href="http://www.google.com/recaptcha/mailhide/d?k=01CK-3HSgYO0ll-0vD3cKyWw==&amp;c=Oz_FAOl8l-PeBA0djkKF_A==" onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\07501CK-3HSgYO0ll-0vD3cKyWw\75\75\46c\75Oz_FAOl8l-PeBA0djkKF_A\75\075', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;" title="Reveal this e-mail address">Contact</a> &bull;
+    	<a href="http://twitter.com/gesteves" rel="me">Twitter</a>
+    </p>
+	</form>
+	
+	<div>
+	<p>Hello, my name is <a href="http://www.gesteves.com" rel="me">Guillermo Esteves</a>. I’m a Systems Engineer and Web Developer from Caracas, Venezuela. I specialize in building simple, usable, elegant websites using modern web standards and technologies. For more information about my work, please visit <a href="http://www.gesteves.com" rel="me">my website</a> or <a href="http://www.google.com/recaptcha/mailhide/d?k=01CK-3HSgYO0ll-0vD3cKyWw==&amp;c=Oz_FAOl8l-PeBA0djkKF_A==" onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\07501CK-3HSgYO0ll-0vD3cKyWw\75\75\46c\75Oz_FAOl8l-PeBA0djkKF_A\75\075', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;" title="Reveal this e-mail address">contact me</a>. You should also <a href="http://twitter.com/intent/user?screen_name=gesteves" rel="me">follow me on Twitter</a>.</p>
+	
+	</div>
+  
+  <p class="license">This site is published under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-Noncommercial-Share Alike 3.0 Unported License</a>. The ideas and views expressed here are mine alone, and don’t represent those of my clients, employers, or anyone else, really. Powered by <a href="http://octopress.org">Octopress</a> <abbr title="and">&amp;</abbr> <a href="http://heroku.com">Heroku</a>. Thanks for reading.</p>
+</footer>
+</div>

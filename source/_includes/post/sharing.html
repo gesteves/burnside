@@ -1,8 +1,9 @@
 <div class="sharing">
   {% if site.twitter_tweet_button %}
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="{{ site.url }}{{ page.url }}" data-via="{{ site.twitter_user }}" data-counturl="{{ site.url }}{{ page.url }}" >Tweet</a>
+  <div class="tweet"><a href="http://twitter.com/share" class="twitter-share-button" data-text="{{ page.title }}" data-url="{{ site.url }}{{ page.url }}" data-via="{{ site.twitter_user }}" data-counturl="{{ site.url }}{{ page.url }}" >Tweet</a></div>
   {% endif %}
   {% if site.google_plus_one %}
-  <div class="g-plusone" data-size="{{ site.google_plus_one_size }}"></div>
+  <div class="plusone"><div class="g-plusone" data-size="{{ site.google_plus_one_size }}" data-href="{{ site.url }}{{ page.url }}"></div></div>
   {% endif %}
+  <div class="fblike"><fb:like href="{{ site.url }}{{ page.url }}" send="true" layout="button_count" width="160" show_faces="false" font="lucida grande"></fb:like></div>
 </div>
