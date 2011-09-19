@@ -130,9 +130,9 @@ What of it, if some old hunks of a sea-captain orders me to get a broom and swee
   
   <div class="plusone"><div class="g-plusone" data-size="medium" data-href="http://blog.gesteves.com/blog/2011/09/19/test/"></div></div>
   
-  <div class="fblike"><fb:like href="http://blog.gesteves.com/blog/2011/09/19/test/" send="true" layout="button_count" width="160" show_faces="false" font="lucida grande"></fb:like></div>
+  <div class="fblike">
+  <div class="fb-like" data-href="http://blog.gesteves.com/blog/2011/09/19/test/" data-send="true" data-layout="button_count" data-width="160" data-show-faces="false" data-font="lucida grande"></div></div>
 </div>
-
 </footer>
 	
 
@@ -173,21 +173,17 @@ What of it, if some old hunks of a sea-captain orders me to get a broom and swee
 
 
   <div id="fb-root"></div>
-<script type="text/javascript">
-      window.fbAsyncInit = function() {
-        FB.init({appId: '111255698909459', status: true, cookie: true,
-                 xfbml: true});
-      };
-      (function() {
-        var e = document.createElement('script');
-        e.type = 'text/javascript';
-        e.src = document.location.protocol +
-          '//connect.facebook.net/en_US/all.js';
-        e.async = true;
-        document.getElementById('fb-root').appendChild(e);
-      }());
-    </script>
-
+<script src="http://connect.facebook.net/en_US/all.js"></script>
+<script>
+  FB.init({
+    appId  : '111255698909459',
+    status : true, // check login status
+    cookie : true, // enable cookies to allow the server to access the session
+    xfbml  : true, // parse XFBML
+    channelURL : 'http://blog.gesteves.com/channel.html', // channel.html file
+    oauth  : true // enable OAuth 2.0
+  });
+</script>
   <script type="text/javascript" src="/javascripts/application.js"></script>
   
   <script type="text/javascript">
