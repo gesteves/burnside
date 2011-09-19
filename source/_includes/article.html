@@ -22,9 +22,7 @@
 <footer class="meta">
     <p class="byline">Posted by {% include post/author.html %} on {% include post/date.html %}{% if updated %}{{ updated }}{% else %}{{ time }}{% endif %}{% include post/categories.html %}</p>
     
-    {% unless index %}
-      {% include post/sharing.html %}
-    {% endunless %}
+    {% include post/sharing.html %}
 </footer>
 	
 
