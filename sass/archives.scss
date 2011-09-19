@@ -24,3 +24,27 @@
 	}
 
 }
+
+
+@media screen and (max-width: 620px) {
+
+#blog-archives {
+
+	h1 {
+		font-size:18px;
+	}
+
+	article {
+	
+		p.byline {
+			line-height:1.5;
+		}
+		
+		h2 {
+			font-size:18px;
+		}
+		
+	}
+
+}
+}
