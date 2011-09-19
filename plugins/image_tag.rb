@@ -38,7 +38,7 @@ module Jekyll
     def render(context)
       output = super
       if @img
-        "<img class='#{@class}' src='#{@img}' width='#{@width}' height='#{@height}' alt='#{@title}' title='#{@title}'>"
+        "<p class='image'><img class='#{@class}' src='#{@img}' width='#{@width}' height='#{@height}' alt='#{@title}' title='#{@title}' /></p>"
       else
         "Error processing input, expected syntax: {% img [class name(s)] /url/to/image [width height] [title text] %}"
       end

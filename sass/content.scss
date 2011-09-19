@@ -55,6 +55,23 @@ article {
 		
 	}
 	
+	p.image {
+		margin-left:0;
+		
+		img {
+			max-width:100%;
+			-webkit-border-radius:3px;
+			-moz-border-radius:3px;
+			border-radius:3px;
+			margin-left:240px;
+			
+			&.large {
+				margin-left:0;
+			}
+		}
+		
+	}
+	
 	p.more {
 		font-weight:bold;
 	}
