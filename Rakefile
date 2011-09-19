@@ -245,16 +245,19 @@ end
 desc "deploy public directory to Heroku"
 multitask :heroku do
   puts "## Deploying website to Heroku "
+  growl("Deploying website to Heroku.")
 	system "git add ."
 	system "git add -u"
 	puts "\n## Commiting: Site updated at #{Time.now.utc}"
 	message = "Site updated at #{Time.now.utc}"
 	system "git commit -m \"#{message}\""
+	growl(message)
 	puts "\n## Pushing generated public website"
+	growl("Pushing generated public website.")
 	system "git push heroku master"
 	puts "\n## Heroku deploy complete"
-	system "growlnotify -n Octopress -m Heroku deploy complete."
 	system "open #{url}"
+	growl("Heroku deploy complete.")
 end
 
 desc "Update configurations to support publishing to root or sub directory"
@@ -333,6 +336,10 @@ def ask(message, valid_options)
     answer = get_stdin(message)
   end
   answer
+end
+
+def growl(message)
+	system "growlnotify -t Octopress -n Octopress --image ~/octopress.png -m \"#{message}\""
 end
 
 desc "list tasks"
