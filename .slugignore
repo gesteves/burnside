@@ -3,6 +3,7 @@ _plugins
 sass
 source
 Rakefile
+.themes
 *.markdown
 *.yml
 octopress.png
