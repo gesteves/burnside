@@ -9,7 +9,7 @@ categories:
 
 After almost four years on [Tumblr][tumblr], I've decided it's time to switch blog platforms. My blog now runs on [Octopress][octo] and [Heroku][her].
 
-The reason I'm switching, and the reason I was using Tumblr in the first place, are a bit of a long story. I used to have a real blog, one I built myself in 2005 or so, when I was teaching myself Rails, and which I loved and updated frequently. However, a couple of years later, thanks to Venezuela's foreign currency restrictions which forbid us from spending more than US$400 a year in electronic payments, having a self-hosted blog running on paid hosting -- even cheap, shared hosting -- became untenable. Back then I was spending $9 a month at [Rails Playground][rp] to host my blog, which may not sound like a lot, but it added up to $108 a year -- over a quarter of what the venezuelan government allows me to spend on the Internet in a year. So, in 2008, when Tumblr began to take off in popularity, I decided to cancel my hosting plan, scrap my blog, write a small script to import all my content, and switched to Tumblr.
+The reason I'm switching, and the reason I was using Tumblr in the first place, are a bit of a long story. I used to have a real blog, one I built myself in 2005 or so, when I was teaching myself Rails, and which I loved and updated frequently. However, a couple of years later, thanks to Venezuela's foreign currency restrictions which forbid us from spending more than US$400 a year in electronic payments, having a self-hosted blog running on paid hosting -- even cheap, shared hosting -- became untenable. Back then I was spending $9 a month at [Rails Playground][rp] to host my blog, which may not sound like a lot, but it added up to $108 a year -- over a quarter of what the venezuelan government allows me to spend on the Internet in a year. So, in 2008, when Tumblr began to take off in popularity, I decided to cancel my hosting plan, scrap my blog, write a small script to import all my content, and switch to Tumblr.
 
 [rp]: http://railsplayground.com/
 
@@ -18,7 +18,7 @@ It had the advantage of not having to worry about servers or hosting costs while
 [sb]: http://gestev.es/AGnN
 [outage]: http://staff.tumblr.com/post/10264121525/outage
 
-As for my choice of platform, I chose [Octopress][octo] after reading [Matt Gemmell][legend] [rave about it][legend-octo]. I've always liked the idea of having a "[baked][baked]" blog (i.e. one that's entirely static <abbr>HTML</abbr>), and I've experimented in the past with things like [nanoc][nanoc], but Octopress makes it dead simple to set up, generate, and deploy a static <abbr>HTML</abbr> blog. If you're considering starting a blog, and feel comfortable working in the Terminal, I can't recommend Octopress enough.
+As for my choice of platform, I chose [Octopress][octo] after reading [Matt Gemmell][legend] [rave about it][legend-octo]. I've always liked the idea of having a “[baked][baked]” blog (i.e. one that's entirely static <abbr>HTML</abbr>), and I've experimented in the past with things like [nanoc][nanoc], but Octopress makes it dead simple to set up, generate, and deploy a static <abbr>HTML</abbr> blog. If you're considering starting a blog, and feel comfortable working in the Terminal, I can't recommend Octopress enough.
 
 [tumblr]: http://www.tumblr.com
 [octo]: http://octopress.org
