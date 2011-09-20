@@ -3,6 +3,7 @@ layout: post
 title: "Hello, World"
 date: 2011-09-19 17:14
 comments: true
+description: "After almost four years on Tumblr, I've decided it's time to switch blog platforms. My blog now runs on Octopress and Heroku."
 categories: 
 ---
 
