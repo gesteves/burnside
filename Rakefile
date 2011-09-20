@@ -49,7 +49,7 @@ desc "Generate jekyll site"
 task :generate do
   raise "### You haven't set anything up yet. First run `rake install` to set up an Octopress theme." unless File.directory?(source_dir)
   puts "## Generating Site with Jekyll"
-  growl("Generating Site with Jekyll")
+  growl("Generating site with Jekyll")
   system "jekyll"
 end
 
@@ -337,7 +337,7 @@ def ask(message, valid_options)
 end
 
 def growl(message)
-	system "growlnotify -t Octopress -n Octopress --image ~/octopress.png -m \"#{message}\""
+	system "growlnotify -t Octopress -n Octopress --image octopress.png -m \"#{message}\""
 end
 
 desc "list tasks"

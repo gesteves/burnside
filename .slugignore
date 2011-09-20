@@ -5,3 +5,4 @@ source
 Rakefile
 *.markdown
 *.yml
+octopress.png
