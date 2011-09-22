@@ -35,6 +35,7 @@ article {
 		line-height:1.2;
 		margin:1.2em 0 0 0;
 		font-weight:normal;
+		margin-left:240px;
 	}
 	
 	h3, h4, h5, h6 {
@@ -42,6 +43,7 @@ article {
 		line-height:1.5;
 		margin:1.5em 0 0 0;
 		font-weight:bold;
+		margin-left:240px;
 	}
 
 	p, ol, ul, dl, pre, blockquote {
@@ -272,11 +274,13 @@ div.not-found {
 	
 		h2 {
 			font-size:15px;
+			margin-left:0;
 		}
 	
 		h3, h4, h5, h6 {
 			font-size:12px;
 			font-weight:bold;
+			margin-left:0;
 		}
 		
 		p.image img {
