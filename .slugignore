@@ -1,5 +1,4 @@
-_code_cache
-_plugins
+plugins
 sass
 source
 Rakefile
