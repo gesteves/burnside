@@ -300,6 +300,18 @@ figure[role=code] {
     margin-bottom: 0;
   }
 }
+
+figure[role=code] {
+	margin-left:210px;
+}
+
+@media screen and (max-width: 620px) {
+figure[role=code] {
+	margin-left:0;
+}
+
+}
+
 .code-title {
   text-align: center;
   font-size: 12px;
