@@ -2,6 +2,7 @@
 layout: post
 title: "Better infinite scrolling with the HTML5 History API"
 description: "A technique to improve infinite or endless scrolling using the HTML5 History API."
+image: http://gesteves.s3.amazonaws.com/blog/piictu-stream.jpg
 date: 2011-09-22 16:21
 comments: true
 categories: 
