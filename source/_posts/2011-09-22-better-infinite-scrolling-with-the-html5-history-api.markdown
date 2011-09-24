@@ -5,7 +5,7 @@ description: "A technique to improve infinite or endless scrolling using the HTM
 image: http://gesteves.s3.amazonaws.com/blog/piictu-stream.jpg
 date: 2011-09-22 16:21
 comments: true
-categories: 
+categories: [HTML5, Piictu]
 ---
 
 Now that [Piictu][piictu] [finally launched][tc] and is out of beta, I want to write a bit about one of my favorite things I worked on as the front-end web developer there, which is our implementation of an infinite scrolling page improved by the use of the <abbr>HTML5</abbr> History <abbr>API</abbr>, the problem it tried to solve, and the solution we arrived at.
