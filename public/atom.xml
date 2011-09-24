@@ -4,7 +4,7 @@
   <title>Guillermo Esteves</title>
   <link href="http://blog.gesteves.com/atom.xml" rel="self"/>
   <link href="http://blog.gesteves.com/"/>
-  <updated>2011-09-24T15:55:23-04:30</updated>
+  <updated>2011-09-24T18:43:50-04:30</updated>
   <id>http://blog.gesteves.com/</id>
   <author>
     <name>Guillermo Esteves</name>
@@ -126,7 +126,7 @@
 
 &lt;p&gt;I really believe that using the &lt;abbr&gt;HTML5&lt;/abbr&gt; History &lt;abbr&gt;API&lt;/abbr&gt; to augment infinite scrolling offers a superior user experience by alleviating some of the annoyances caused by traditional approaches, such as the lack of bookmarking and sharing. I expect this technique will be used more once Internet Explorer supports the History &lt;abbr&gt;API&lt;/abbr&gt;, but if you&amp;#8217;re willing to live without &lt;abbr&gt;IE&lt;/abbr&gt; support for a bit (or use one of the many &lt;a href=&quot;https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-Browser-Polyfills&quot;&gt;polyfills&lt;/a&gt; available,) it&amp;#8217;s definitely worth giving it a try now.&lt;/p&gt;
 
-&lt;p&gt;Let me know what you think about this; I look forward to your receiving comments and questions, even though haven&amp;#8217;t gotten around to adding comments to this blog. In the meantime, feel free to &lt;a href=&quot;https://twitter.com/intent/tweet?text=%40gesteves%20&quot;&gt;tweet @gesteves&lt;/a&gt; or &lt;a href=&quot;http://www.google.com/recaptcha/mailhide/d?k=01CK-3HSgYO0ll-0vD3cKyWw==&amp;amp;c=Oz_FAOl8l-PeBA0djkKF_A==&quot; onclick=&quot;window.open(&#8216;http://www.google.com/recaptcha/mailhide/d?k\07501CK-3HSgYO0ll-0vD3cKyWw\75\75\46c\75Oz_FAOl8l-PeBA0djkKF_A\75\075&#8217;, &#8221;, &#8216;toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300&#8217;); return false;&quot; title=&quot;Reveal this e-mail address&quot;&gt;send me an email&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Let me know what you think about this; I look forward to your comments and questions, even though I still haven&amp;#8217;t gotten around to adding comments to this blog. In the meantime, feel free to &lt;a href=&quot;https://twitter.com/intent/tweet?text=%40gesteves%20&quot;&gt;tweet @gesteves&lt;/a&gt; or &lt;a href=&quot;http://www.google.com/recaptcha/mailhide/d?k=01CK-3HSgYO0ll-0vD3cKyWw==&amp;amp;c=Oz_FAOl8l-PeBA0djkKF_A==&quot; onclick=&quot;window.open(&#8216;http://www.google.com/recaptcha/mailhide/d?k\07501CK-3HSgYO0ll-0vD3cKyWw\75\75\46c\75Oz_FAOl8l-PeBA0djkKF_A\75\075&#8217;, &#8221;, &#8216;toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300&#8217;); return false;&quot; title=&quot;Reveal this e-mail address&quot;&gt;send me an email&lt;/a&gt;.&lt;/p&gt;
 </content>
   </entry>
   
