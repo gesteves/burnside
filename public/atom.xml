@@ -4,13 +4,46 @@
   <title>Guillermo Esteves</title>
   <link href="http://blog.gesteves.com/atom.xml" rel="self"/>
   <link href="http://blog.gesteves.com/"/>
-  <updated>2011-09-25T16:03:42-04:30</updated>
+  <updated>2011-09-25T18:24:11-04:30</updated>
   <id>http://blog.gesteves.com/</id>
   <author>
     <name>Guillermo Esteves</name>
     
   </author>
 
+  
+  <entry>
+    <title>I love Chrome’s automatic updates</title>
+    <link href="http://blog.gesteves.com/2011/09/25/i-love-chromes-automatic-updates/"/>
+    <updated>2011-09-25T17:00:00-04:30</updated>
+    <id>http://blog.gesteves.com/2011/09/25/i-love-chromes-automatic-updates</id>
+    <content type="html">&lt;p&gt;Last night I signed up for &lt;a href=&quot;http://getclicky.com/239148&quot;&gt;Clicky Web Analytics&lt;/a&gt;, and looking around their site I saw that they offer &lt;a href=&quot;http://getclicky.com/marketshare/&quot;&gt;market share&lt;/a&gt; stats for the major browsers (&lt;abbr&gt;IE&lt;/abbr&gt;, Chrome, Safari, Firefox, and Opera,) both in general, and split by browser version. Looking at Chrome&amp;#8217;s stats, I noticed something interesting in the graph:&lt;/p&gt;
+
+&lt;p class=&#8217;image&#8217;&gt;&lt;img class=&#8217;small &#8217; src=&#8217;http://gesteves.s3.amazonaws.com/blog/chrome-market-share.png&#8217; alt=&#8217;Chrome market share&#8217; title=&#8217;Chrome market share&#8217; /&gt;&lt;/p&gt;
+
+
+&lt;p&gt;Thanks to Chrome&amp;#8217;s silent automatic updates, as soon as a new version is released, the previous one virtually disappears in a matter of days! I&amp;#8217;m sure there are valid arguments against updating software automatically and silently, for example at organizations that need to control what software their employees use, or that need to test existing applications in new browser versions before deploying them; but from a developer&amp;#8217;s point of view I think it&amp;#8217;s awesome, because for all intents and purposes there&amp;#8217;s only one version of Chrome &amp;#8211; the current one. Since older browsers aren&amp;#8217;t a big concern, testing in Chrome becomes simpler and easier: there&amp;#8217;s no need to hunt down and keep multiple versions for testing.&lt;/p&gt;
+
+&lt;p&gt;Compare to Internet Explorer, where the four most recent versions coexist, so if it represents a major portion of your visits (and it probably does,) then you&amp;#8217;ll have to support at least two of them: Internet Explorer 8, for the large number of people still running Windows XP; and 9, for those running Windows Vista and 7. Unfortunately, unless dropping XP and Vista support is an option, you&amp;#8217;ll probably have to keep supporting them even after Internet Explorer 10 comes out, since &lt;a href=&quot;http://www.pcmag.com/article2/0,2817,2383640,00.asp#fbid=9CphUBgOJbN&quot;&gt;it won&amp;#8217;t support Windows Vista&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p class=&#8217;image&#8217;&gt;&lt;img class=&#8217;small &#8217; src=&#8217;http://gesteves.s3.amazonaws.com/blog/internet-explorer-market-share.png&#8217; alt=&#8217;Internet Explorer market share&#8217; title=&#8217;Internet Explorer market share&#8217; /&gt;&lt;/p&gt;
+
+
+&lt;p&gt;Safari&amp;#8217;s market share behaves a bit like &lt;abbr&gt;IE&lt;/abbr&gt;&amp;#8217;s, inasmuch as it doesn&amp;#8217;t automatically update and the newest version coexists with the older one, but remarkably Safari 5.1 has already overtaken the previous version, just a month after the launch of Lion. Still, until 5.0 is gone, testing in it might be problematic unless you have an older Mac nearby, or a Snow Leopard Server disc you can install in VMware Fusion or Parallels.&lt;/p&gt;
+
+&lt;p class=&#8217;image&#8217;&gt;&lt;img class=&#8217;small &#8217; src=&#8217;http://gesteves.s3.amazonaws.com/blog/safari-market-share.png&#8217; alt=&#8217;Safari market share&#8217; title=&#8217;Safari market share&#8217; /&gt;&lt;/p&gt;
+
+
+&lt;p&gt;Firefox, meanwhile, behaves in a combination of both ways. After Firefox 4, which introduced automatic updates, it behaves like Chrome, with the previous version dropping off after a new release; but with a good number of users still on version 3.6, which didn&amp;#8217;t have automatic updates. If testing in it is a concern, you can &lt;a href=&quot;http://www.mozilla.org/en-US/firefox/all-older.html&quot;&gt;download Firefox 3.6 here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p class=&#8217;image&#8217;&gt;&lt;img class=&#8217;small &#8217; src=&#8217;http://gesteves.s3.amazonaws.com/blog/firefox-market-share.png&#8217; alt=&#8217;Firefox market share&#8217; title=&#8217;Firefox market share&#8217; /&gt;&lt;/p&gt;
+
+
+&lt;p&gt;And Opera… oh, who cares, I&amp;#8217;m pretty sure Opera&amp;#8217;s market share is composed entirely of developers testing their sites in Opera.&lt;/p&gt;
+
+&lt;p&gt;Anyway, knowing that I can stop worrying about testing in older versions of Chrome (and to a much lesser degree, Firefox and Safari) personally makes my job much easier, but as usual, your mileage may vary. Let your own browser stats be your guide.&lt;/p&gt;
+</content>
+  </entry>
   
   <entry>
     <title>Better infinite scrolling with the HTML5 History API</title>
