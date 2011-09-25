@@ -1,6 +1,6 @@
 <header>
 <p class="meta">{% include post/date.html %}{% if updated %}{{ updated }}{% else %}{{ time }}{% endif %}</p>
-<h1 class="entry-title" itemprop="name"><a href="{{ root_url }}{{ post.url }}" rel="bookmark">{% if index %}{{ post.title }}{% else %}{{ page.title }}{% endif%}</a></h1>
+<h1 class="entry-title" itemprop="name"><a href="{% if index %}{{ root_url }}{{ post.url }}{% else %}{{ root_url }}{{ page.url }}{% endif %}" rel="bookmark">{% if index %}{{ post.title }}{% else %}{{ page.title }}{% endif%}</a></h1>
 </header>
 
 
