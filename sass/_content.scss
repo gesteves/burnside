@@ -74,16 +74,22 @@ article {
 	
 	p.image {
 		margin-left:0;
+		width:100%;
+		clear:both;
+		float:left;
 		
 		img {
 			max-width:100%;
 			-webkit-border-radius:3px;
 			-moz-border-radius:3px;
 			border-radius:3px;
-			margin-left:240px;
 			float:left;
 			font-size:16px;
 			margin:0 0 1.5em 0;
+			
+			&.small {
+				margin-left:240px;
+			}
 			
 			&.large {
 				margin-left:0;
@@ -308,7 +314,7 @@ div.not-found {
 		}
 		
 		p.image img {
-			margin-left:0;
+			margin-left:0 !important;
 		}
 		
 		p.meta {
