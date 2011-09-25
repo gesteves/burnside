@@ -21,3 +21,9 @@ FB.Event.subscribe('edge.remove', function(targetUrl) {
 FB.Event.subscribe('message.send', function(targetUrl) {
   _gaq.push(['_trackSocial', 'Facebook', 'Send', targetUrl]);
 });
+FB.Event.subscribe('comment.create', function(targetUrl) {
+  _gaq.push(['_trackSocial', 'Facebook', 'Comment', targetUrl]);
+});
+FB.Event.subscribe('comment.remove', function(targetUrl) {
+  _gaq.push(['_trackSocial', 'Facebook', 'Remove comment', targetUrl]);
+});
