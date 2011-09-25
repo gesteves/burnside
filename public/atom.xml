@@ -4,7 +4,7 @@
   <title>Guillermo Esteves</title>
   <link href="http://blog.gesteves.com/atom.xml" rel="self"/>
   <link href="http://blog.gesteves.com/"/>
-  <updated>2011-09-25T14:03:29-04:30</updated>
+  <updated>2011-09-25T16:03:42-04:30</updated>
   <id>http://blog.gesteves.com/</id>
   <author>
     <name>Guillermo Esteves</name>
@@ -109,7 +109,7 @@
 
 &lt;p&gt;You can see this in action by going to any stream on Piictu, such as this &lt;a href=&quot;http://piictu.com/streams/4df4fcc02d26880001000353&quot;&gt;Hipstamatic&lt;/a&gt; stream I started a few months ago. As you scroll up and down, you&amp;#8217;ll notice that the ID of the photo in the viewport is appended to the &lt;abbr&gt;URL&lt;/abbr&gt; of the stream page, and when you return to the top, it&amp;#8217;s restored to the original &lt;abbr&gt;URL&lt;/abbr&gt; (the &lt;code&gt;base_url&lt;/code&gt; variable in the source code, which is also saved in a &lt;code&gt;data-*&lt;/code&gt; attribute in the markup for easy retrieval.)&lt;/p&gt;
 
-&lt;p class=&#8217;image&#8217;&gt;&lt;img class=&#8217;large screenshot &#8217; src=&#8217;http://gesteves.s3.amazonaws.com/blog/piictu-stream.jpg&#8217; alt=&#8221; title=&#8221; /&gt;&lt;/p&gt;
+&lt;p class=&#8217;image&#8217;&gt;&lt;img class=&#8217;large screenshot &#8217; src=&#8217;http://gesteves.s3.amazonaws.com/blog/piictu-stream.jpg&#8217; alt=&#8217;Screenshot of a Piictu stream page&#8217; title=&#8217;Screenshot of a Piictu stream page&#8217; /&gt;&lt;/p&gt;
 
 
 &lt;p&gt;So what happens on the server when we request a stream? If we request a plain stream &lt;abbr&gt;URL&lt;/abbr&gt;, such as &lt;code&gt;/streams/123&lt;/code&gt;, the server returns the first few photos normally, starting with the first photo in the stream. If we request a &lt;abbr&gt;URL&lt;/abbr&gt; that contains a photo ID, like &lt;code&gt;/streams/123/photo/345&lt;/code&gt;, the server again returns a few photos, but this time starting at the photo with the specified ID, with an option to load the photos above it, or scroll down to load more photos below. No need to use JavaScript to figure out which photos to show, it&amp;#8217;s all returned directly from the server. Also, the metadata of the photo being requested is also returned as Open Graph tags in the &lt;code&gt;&amp;lt;head&amp;gt;&lt;/code&gt; of the page, so when you post &lt;code&gt;/streams/123/photo/345&lt;/code&gt; on Facebook or Google+, they&amp;#8217;ll show the correct thumbnail and caption for that photo. It solves our goal for the photos, which was to help users to easily share them: regardless of whether they use the sharing buttons next to each photo, or simply grab the &lt;abbr&gt;URL&lt;/abbr&gt; from the address bar and paste it in an instant message or their favorite social network, &lt;em&gt;it&amp;#8217;ll just work&lt;/em&gt;.&lt;/p&gt;
