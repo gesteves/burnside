@@ -17,13 +17,13 @@ Last night I signed up for [Clicky Web Analytics][clicky], and looking around th
 
 Thanks to Chrome's silent automatic updates, as soon as a new version is released, the previous one virtually disappears in a matter of days! I'm sure there are valid arguments against updating software automatically and silently, for example at organizations that need to control what software their employees use, or that need to test existing applications in new browser versions before deploying them; but from a developer's point of view I think it's awesome, because for all intents and purposes there's only one version of Chrome -- the current one. Since older browsers aren't a big concern, testing in Chrome becomes simpler and easier: there's no need to hunt down and keep multiple versions for testing.
 
-Compare to Internet Explorer, where the four most recent versions coexist, so if it represents a major portion of your visits (and it probably does,) then you'll have to support at least two of them: Internet Explorer 8, for the large number of people still running Windows XP; and 9, for those running Windows Vista and 7. Unfortunately, unless dropping XP and Vista support is an option, you'll probably have to keep supporting them even after Internet Explorer 10 comes out, since [it won't support Windows Vista][ie10vista].
+Compare to Internet Explorer, where the four most recent versions coexist, so if it represents a major portion of your visits (and it probably does,) then you'll have to support at least two of them: Internet Explorer 8, for the large number of people still running Windows XP; and 9, for those running Windows Vista and 7. Unfortunately, unless dropping XP and Vista is an option, you'll probably have to keep supporting them even after Internet Explorer 10 comes out, since [it won't support Windows Vista][ie10vista].
 
 {% img small http://gesteves.s3.amazonaws.com/blog/internet-explorer-market-share.png Internet Explorer market share %}
 
 [ie10vista]: http://www.pcmag.com/article2/0,2817,2383640,00.asp#fbid=9CphUBgOJbN
 
-Safari's market share behaves a bit like <abbr>IE</abbr>'s, inasmuch as it doesn't automatically update and the newest version coexists with the older one, but remarkably Safari 5.1 has already overtaken the previous version, just a month after the launch of Lion. Still, until 5.0 is gone, testing in it might be problematic unless you have an older Mac nearby, or a Snow Leopard Server disc you can install in VMware Fusion or Parallels.
+Safari's market share behaves a bit like <abbr>IE</abbr>'s, inasmuch as it doesn't automatically update and the newest version coexists with the older one, but remarkably Safari 5.1 has already overtaken the previous version, just a month after its release with the launch of Lion. Still, until 5.0 is gone, testing in it might be problematic unless you have an older Mac nearby, or a Snow Leopard Server disc you can install in VMware Fusion or Parallels.
 
 {% img small http://gesteves.s3.amazonaws.com/blog/safari-market-share.png Safari market share %}
 
