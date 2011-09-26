@@ -27,9 +27,9 @@ Safari's market share behaves a bit like <abbr>IE</abbr>'s, inasmuch as it doesn
 
 {% img small http://gesteves.s3.amazonaws.com/blog/safari-market-share.png Safari market share %}
 
-Firefox, meanwhile, behaves in a combination of both ways. After Firefox 4, which introduced automatic updates, it behaves like Chrome, with the previous version dropping off after a new release; but with a good number of users still on version 3.6, which didn't have automatic updates. If testing in it is a concern, you can [download Firefox 3.6 here][ff36].
+<aside><p>If Firefox 3.6 is a concern for you, and you need or want to test in it, you can <a href="http://www.mozilla.org/en-US/firefox/all-older.html">download it here</a>.</p></aside>
 
-[ff36]: http://www.mozilla.org/en-US/firefox/all-older.html
+Firefox, meanwhile, behaves in a combination of both ways. After Firefox 4, which introduced automatic updates, it behaves like Chrome, with the previous version dropping off after a new release; but with a good number of users still on version 3.6, which didn't have automatic updates.
 
 {% img small http://gesteves.s3.amazonaws.com/blog/firefox-market-share.png Firefox market share %}
 

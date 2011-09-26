@@ -4,7 +4,7 @@
   <title>Guillermo Esteves</title>
   <link href="http://blog.gesteves.com/atom.xml" rel="self"/>
   <link href="http://blog.gesteves.com/"/>
-  <updated>2011-09-26T08:21:42-04:30</updated>
+  <updated>2011-09-26T14:37:01-04:30</updated>
   <id>http://blog.gesteves.com/</id>
   <author>
     <name>Guillermo Esteves</name>
@@ -34,7 +34,9 @@
 &lt;p class=&#8217;image&#8217;&gt;&lt;img class=&#8217;small &#8217; src=&#8217;http://gesteves.s3.amazonaws.com/blog/safari-market-share.png&#8217; alt=&#8217;Safari market share&#8217; title=&#8217;Safari market share&#8217; /&gt;&lt;/p&gt;
 
 
-&lt;p&gt;Firefox, meanwhile, behaves in a combination of both ways. After Firefox 4, which introduced automatic updates, it behaves like Chrome, with the previous version dropping off after a new release; but with a good number of users still on version 3.6, which didn&amp;#8217;t have automatic updates. If testing in it is a concern, you can &lt;a href=&quot;http://www.mozilla.org/en-US/firefox/all-older.html&quot;&gt;download Firefox 3.6 here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;aside&gt;&lt;p&gt;If Firefox 3.6 is a concern for you, and you need or want to test in it, you can &lt;a href=&quot;http://www.mozilla.org/en-US/firefox/all-older.html&quot;&gt;download it here&lt;/a&gt;.&lt;/p&gt;&lt;/aside&gt;&lt;/p&gt;
+
+&lt;p&gt;Firefox, meanwhile, behaves in a combination of both ways. After Firefox 4, which introduced automatic updates, it behaves like Chrome, with the previous version dropping off after a new release; but with a good number of users still on version 3.6, which didn&amp;#8217;t have automatic updates.&lt;/p&gt;
 
 &lt;p class=&#8217;image&#8217;&gt;&lt;img class=&#8217;small &#8217; src=&#8217;http://gesteves.s3.amazonaws.com/blog/firefox-market-share.png&#8217; alt=&#8217;Firefox market share&#8217; title=&#8217;Firefox market share&#8217; /&gt;&lt;/p&gt;
 
