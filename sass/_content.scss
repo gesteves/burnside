@@ -88,6 +88,7 @@ article {
 			margin:0 0 1.5em 0;
 			
 			&.small {
+				max-width:75%;
 				margin-left:240px;
 			}
 			
@@ -315,6 +316,9 @@ div.not-found {
 		
 		p.image img {
 			margin-left:0 !important;
+			&.small {
+				max-width:100%;
+			}
 		}
 		
 		p.meta {
