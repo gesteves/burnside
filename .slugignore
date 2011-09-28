@@ -6,3 +6,4 @@ Rakefile
 *.markdown
 *.yml
 octopress.png
+public/images
