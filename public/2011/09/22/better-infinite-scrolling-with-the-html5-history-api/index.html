@@ -15,9 +15,9 @@
 <meta name="description" content="A technique to improve infinite or endless scrolling using the HTML5 History API."/>
 
 
-<link rel="image_src" href="http://blog-assets.gesteves.com/blog/piictu-stream.jpg" />
+<link rel="image_src" href="http://blog-assets.gesteves.com/images/piictu-stream.jpg" />
 <meta name="medium" content="image" />
-<meta property="og:image" content="http://blog-assets.gesteves.com/blog/piictu-stream.jpg" />
+<meta property="og:image" content="http://blog-assets.gesteves.com/images/piictu-stream.jpg" />
 
 <title>Better infinite scrolling with the HTML5 History API &ndash; Guillermo Esteves</title>
 <meta property="og:site_name" content="Guillermo Esteves" />
@@ -160,7 +160,7 @@
 
 <p>You can see this in action by going to any stream on Piictu, such as this <a href="http://piictu.com/streams/4df4fcc02d26880001000353">Hipstamatic</a> stream I started a few months ago. As you scroll up and down, you&#8217;ll notice that the ID of the photo in the viewport is appended to the <abbr>URL</abbr> of the stream page, and when you return to the top, it&#8217;s restored to the original <abbr>URL</abbr> (the <code>base_url</code> variable in the source code, which is also saved in a <code>data-*</code> attribute in the markup for easy retrieval.)</p>
 
-<p class='image'><img class='large screenshot ' src='http://blog-assets.gesteves.com/blog/piictu-stream.jpg' alt='Screenshot of a Piictu stream page' title='Screenshot of a Piictu stream page' /></p>
+<p class='image'><img class='large screenshot ' src='http://blog-assets.gesteves.com/images/piictu-stream.jpg' alt='Screenshot of a Piictu stream page' title='Screenshot of a Piictu stream page' /></p>
 
 
 <p>So what happens on the server when we request a stream? If we request a plain stream <abbr>URL</abbr>, such as <code>/streams/123</code>, the server returns the first few photos normally, starting with the first photo in the stream. If we request a <abbr>URL</abbr> that contains a photo ID, like <code>/streams/123/photo/345</code>, the server again returns a few photos, but this time starting at the photo with the specified ID, with an option to load the photos above it, or scroll down to load more photos below. No need to use JavaScript to figure out which photos to show, it&#8217;s all returned directly from the server. Also, the metadata of the photo being requested is also returned as Open Graph tags in the <code>&lt;head&gt;</code> of the page, so when you post <code>/streams/123/photo/345</code> on Facebook or Google+, they&#8217;ll show the correct thumbnail and caption for that photo. It solves our goal for the photos, which was to help users to easily share them: regardless of whether they use the sharing buttons next to each photo, or simply grab the <abbr>URL</abbr> from the address bar and paste it in an instant message or their favorite social network, <em>it&#8217;ll just work</em>.</p>

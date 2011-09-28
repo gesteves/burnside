@@ -67,26 +67,26 @@
 <div class="entry-content" itemprop="description">
 <p>Last night I signed up for <a href="http://getclicky.com/239148">Clicky Web Analytics</a>, and looking around their site I saw that they offer <a href="http://getclicky.com/marketshare/">market share</a> stats for the major browsers (<abbr>IE</abbr>, Chrome, Safari, Firefox, and Opera,) both in general, and split by browser version. Looking at Chrome&#8217;s stats, I noticed something interesting in the graph:</p>
 
-<p class='image'><img class='small ' src='http://blog-assets.gesteves.com/blog/chrome-market-share.png' alt='Chrome market share' title='Chrome market share' /></p>
+<p class='image'><img class='small ' src='http://blog-assets.gesteves.com/images/chrome-market-share.png' alt='Chrome market share' title='Chrome market share' /></p>
 
 
 <p>Thanks to Chrome&#8217;s silent automatic updates, as soon as a new version is released, the previous one virtually disappears in a matter of days! I&#8217;m sure there are valid arguments against updating software automatically and silently, for example at organizations that need to control what software their employees use, or that need to test existing applications in new browser versions before deploying them; but from a developer&#8217;s point of view I think it&#8217;s awesome, because for all intents and purposes there&#8217;s only one version of Chrome &#8211; the current one. Since older versions aren&#8217;t a big concern, testing in Chrome becomes simpler and easier: there&#8217;s no need to hunt down and keep multiple versions for testing.</p>
 
 <p>Compare to Internet Explorer, where the four most recent versions coexist, so if it represents a major portion of your visits (and it probably does,) then you&#8217;ll have to support at least two of them: Internet Explorer 8, for the large number of people still running Windows XP; and 9, for those running Windows Vista and 7. Unfortunately, unless dropping XP and Vista is an option, you&#8217;ll probably have to keep supporting them even after Internet Explorer 10 comes out, since <a href="http://www.pcmag.com/article2/0,2817,2383640,00.asp#fbid=9CphUBgOJbN">it won&#8217;t support Windows Vista</a>.</p>
 
-<p class='image'><img class='small ' src='http://blog-assets.gesteves.com/blog/internet-explorer-market-share.png' alt='Internet Explorer market share' title='Internet Explorer market share' /></p>
+<p class='image'><img class='small ' src='http://blog-assets.gesteves.com/images/internet-explorer-market-share.png' alt='Internet Explorer market share' title='Internet Explorer market share' /></p>
 
 
 <p>Safari&#8217;s market share behaves a bit like <abbr>IE</abbr>&#8217;s, inasmuch as it doesn&#8217;t automatically update and the newest version coexists with the older one, but remarkably Safari 5.1 has already overtaken the previous version, just a month after its release with the launch of Lion. Still, until 5.0 is gone, testing in it might be problematic unless you have an older Mac nearby, or a Snow Leopard Server disc you can install in VMware Fusion or Parallels.</p>
 
-<p class='image'><img class='small ' src='http://blog-assets.gesteves.com/blog/safari-market-share.png' alt='Safari market share' title='Safari market share' /></p>
+<p class='image'><img class='small ' src='http://blog-assets.gesteves.com/images/safari-market-share.png' alt='Safari market share' title='Safari market share' /></p>
 
 
 <p><aside><p>If Firefox 3.6 is a concern for you, and you need or want to test in it, you can <a href="http://www.mozilla.org/en-US/firefox/all-older.html">download it here</a>.</p></aside></p>
 
 <p>Firefox, meanwhile, behaves in a combination of both ways. After Firefox 4, which introduced automatic updates, it behaves like Chrome, with the previous version dropping off after a new release; but with a good number of users still on version 3.6, which didn&#8217;t have automatic updates.</p>
 
-<p class='image'><img class='small ' src='http://blog-assets.gesteves.com/blog/firefox-market-share.png' alt='Firefox market share' title='Firefox market share' /></p>
+<p class='image'><img class='small ' src='http://blog-assets.gesteves.com/images/firefox-market-share.png' alt='Firefox market share' title='Firefox market share' /></p>
 
 
 <p>And Opera… oh, who cares, I&#8217;m pretty sure Opera&#8217;s market share is composed entirely of developers testing their sites in Opera.</p>
@@ -251,7 +251,7 @@
 
 <p>You can see this in action by going to any stream on Piictu, such as this <a href="http://piictu.com/streams/4df4fcc02d26880001000353">Hipstamatic</a> stream I started a few months ago. As you scroll up and down, you&#8217;ll notice that the ID of the photo in the viewport is appended to the <abbr>URL</abbr> of the stream page, and when you return to the top, it&#8217;s restored to the original <abbr>URL</abbr> (the <code>base_url</code> variable in the source code, which is also saved in a <code>data-*</code> attribute in the markup for easy retrieval.)</p>
 
-<p class='image'><img class='large screenshot ' src='http://blog-assets.gesteves.com/blog/piictu-stream.jpg' alt='Screenshot of a Piictu stream page' title='Screenshot of a Piictu stream page' /></p>
+<p class='image'><img class='large screenshot ' src='http://blog-assets.gesteves.com/images/piictu-stream.jpg' alt='Screenshot of a Piictu stream page' title='Screenshot of a Piictu stream page' /></p>
 
 
 <p>So what happens on the server when we request a stream? If we request a plain stream <abbr>URL</abbr>, such as <code>/streams/123</code>, the server returns the first few photos normally, starting with the first photo in the stream. If we request a <abbr>URL</abbr> that contains a photo ID, like <code>/streams/123/photo/345</code>, the server again returns a few photos, but this time starting at the photo with the specified ID, with an option to load the photos above it, or scroll down to load more photos below. No need to use JavaScript to figure out which photos to show, it&#8217;s all returned directly from the server. Also, the metadata of the photo being requested is also returned as Open Graph tags in the <code>&lt;head&gt;</code> of the page, so when you post <code>/streams/123/photo/345</code> on Facebook or Google+, they&#8217;ll show the correct thumbnail and caption for that photo. It solves our goal for the photos, which was to help users to easily share them: regardless of whether they use the sharing buttons next to each photo, or simply grab the <abbr>URL</abbr> from the address bar and paste it in an instant message or their favorite social network, <em>it&#8217;ll just work</em>.</p>

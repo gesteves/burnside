@@ -2,7 +2,7 @@
 layout: post
 title: "Better infinite scrolling with the HTML5 History API"
 description: "A technique to improve infinite or endless scrolling using the HTML5 History API."
-image: http://blog-assets.gesteves.com/blog/piictu-stream.jpg
+image: http://blog-assets.gesteves.com/images/piictu-stream.jpg
 date: 2011-09-22 16:21
 comments: true
 categories: [HTML5, Piictu]
@@ -83,7 +83,7 @@ function updatePhotoPath() {
 
 You can see this in action by going to any stream on Piictu, such as this [Hipstamatic][hip] stream I started a few months ago. As you scroll up and down, you'll notice that the ID of the photo in the viewport is appended to the <abbr>URL</abbr> of the stream page, and when you return to the top, it's restored to the original <abbr>URL</abbr> (the `base_url` variable in the source code, which is also saved in a `data-*` attribute in the markup for easy retrieval.)
 
-{% img large screenshot http://blog-assets.gesteves.com/blog/piictu-stream.jpg Screenshot of a Piictu stream page %}
+{% img large screenshot http://blog-assets.gesteves.com/images/piictu-stream.jpg Screenshot of a Piictu stream page %}
 
 [hip]: http://piictu.com/streams/4df4fcc02d26880001000353
 
