@@ -95,7 +95,7 @@ html .gist .gist-file {
   margin-bottom: 1.8em;
   position: relative;
   border: none;
-  padding-top: image-height("code_bg.png") !important;
+  padding-top: image-height("http://blog-assets.gesteves.com/images/code_bg.png") !important;
   .gist-syntax {
     @if $solarized == dark {
       border-bottom: 1px solid $base03 !important;
@@ -326,7 +326,7 @@ figure[role=code] {
 	-moz-border-radius-topright: 5px;
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
-  background: #aaaaaa image-url("code_bg.png") top repeat-x;
+  background: #aaaaaa image-url("http://blog-assets.gesteves.com/images/code_bg.png") top repeat-x;
   border: 1px solid #565656;
   border-top-color: #cbcbcb;
   border-left-color: #a5a5a5;
