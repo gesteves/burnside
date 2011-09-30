@@ -95,7 +95,7 @@ html .gist .gist-file {
   margin-bottom: 1.8em;
   position: relative;
   border: none;
-  padding-top: image-height("http://blog-assets.gesteves.com/images/code_bg.png") !important;
+  padding-top: image-height("code_bg.png") !important;
   .gist-syntax {
     @if $solarized == dark {
       border-bottom: 1px solid $base03 !important;
