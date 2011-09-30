@@ -40,10 +40,10 @@ module Jekyll
       self.data['category']    = category
       # Set the title for this page.
       title_prefix             = site.config['category_title_prefix'] || 'Category: '
-      self.data['title']       = "#{title_prefix}#{category}"
+      self.data['title']       = "Posts tagged “#{category}”"
       # Set the meta-description for this page.
       meta_description_prefix  = site.config['category_meta_description_prefix'] || 'Category: '
-      self.data['description'] = "#{meta_description_prefix}#{category}"
+      self.data['description'] = "Posts tagged “#{category}”"
     end
 
   end
