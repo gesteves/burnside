@@ -8,10 +8,3 @@ single: true
 {% include article.html %}
 
 </article>
-
-{% if page.comments %}
-<div id="comments">
-<h1>Comments</h1>
-<div class="fb-comments" data-href="{{ site.url }}{{ page.url }}" data-num-posts="10" data-width="720"></div>
-</div>
-{% endif %}
