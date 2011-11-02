@@ -4,7 +4,7 @@
   <title>Guillermo Esteves</title>
   <link href="http://blog.gesteves.com/atom.xml" rel="self"/>
   <link href="http://blog.gesteves.com/"/>
-  <updated>2011-10-27T15:49:50-04:30</updated>
+  <updated>2011-11-01T20:26:17-04:00</updated>
   <id>http://blog.gesteves.com/</id>
   <author>
     <name>Guillermo Esteves</name>
@@ -15,7 +15,7 @@
   <entry>
     <title>I love Chrome’s automatic updates</title>
     <link href="http://blog.gesteves.com/2011/09/25/i-love-chromes-automatic-updates/"/>
-    <updated>2011-09-25T17:00:00-04:30</updated>
+    <updated>2011-09-25T17:00:00-04:00</updated>
     <id>http://blog.gesteves.com/2011/09/25/i-love-chromes-automatic-updates</id>
     <content type="html">&lt;p&gt;Last night I signed up for &lt;a href=&quot;http://getclicky.com/239148&quot;&gt;Clicky Web Analytics&lt;/a&gt;, and looking around their site I saw that they offer &lt;a href=&quot;http://getclicky.com/marketshare/&quot;&gt;market share&lt;/a&gt; stats for the major browsers (&lt;abbr&gt;IE&lt;/abbr&gt;, Chrome, Safari, Firefox, and Opera,) both in general, and split by browser version. Looking at Chrome&amp;#8217;s stats, I noticed something interesting in the graph:&lt;/p&gt;
 
@@ -50,7 +50,7 @@
   <entry>
     <title>Better infinite scrolling with the HTML5 History API</title>
     <link href="http://blog.gesteves.com/2011/09/22/better-infinite-scrolling-with-the-html5-history-api/"/>
-    <updated>2011-09-22T16:21:00-04:30</updated>
+    <updated>2011-09-22T16:21:00-04:00</updated>
     <id>http://blog.gesteves.com/2011/09/22/better-infinite-scrolling-with-the-html5-history-api</id>
     <content type="html">&lt;p&gt;Now that &lt;a href=&quot;http://piictu.com&quot;&gt;Piictu&lt;/a&gt; &lt;a href=&quot;http://techcrunch.com/2011/09/22/piictu-launches-grabs-seed-funding-to-grow-its-game-ified-photo-sharing-app/&quot;&gt;finally launched&lt;/a&gt; and is out of beta, I want to write a bit about one of my favorite things I worked on as the front-end web developer there, which is our implementation of an infinite scrolling page improved by the use of the &lt;abbr&gt;HTML5&lt;/abbr&gt; History &lt;abbr&gt;API&lt;/abbr&gt;, the problem it tried to solve, and the solution we arrived at.&lt;/p&gt;
 
@@ -168,7 +168,7 @@
   <entry>
     <title>Hello, World</title>
     <link href="http://blog.gesteves.com/2011/09/19/hello-world/"/>
-    <updated>2011-09-19T17:14:00-04:30</updated>
+    <updated>2011-09-19T17:14:00-04:00</updated>
     <id>http://blog.gesteves.com/2011/09/19/hello-world</id>
     <content type="html">&lt;p&gt;After almost four years on &lt;a href=&quot;http://www.tumblr.com&quot;&gt;Tumblr&lt;/a&gt;, I&amp;#8217;ve decided it&amp;#8217;s time to switch blog platforms. My blog now runs on &lt;a href=&quot;http://octopress.org&quot;&gt;Octopress&lt;/a&gt; and &lt;a href=&quot;http://www.heroku.com&quot;&gt;Heroku&lt;/a&gt;.&lt;/p&gt;
 
