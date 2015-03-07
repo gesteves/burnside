@@ -5,7 +5,7 @@
 # Syntax {% image [class name(s)] url [title text] %}
 #
 # Example:
-# {% ima left half http://site.com/images/ninja.png Ninja Attack! %}
+# {% img left half http://site.com/images/ninja.png Ninja Attack! %}
 #
 # Output:
 # <image class='left' src="http://site.com/images/ninja.png" title="Ninja Attack!" alt="Ninja Attack!">
